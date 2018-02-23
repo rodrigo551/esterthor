@@ -20,11 +20,39 @@ body{
  }
  header{
  	width: 100%;
- 	height: 200px;
+ 	height: 250px;
  	/*background-color: green;*/
  	background-position: center;
  	margin-left: 0px;
- 	background-image: url(..img/logoesterthor1.jpg);
+	 background-image:url(img/logoesterthor1.jpg);
+	 background-repeat: no-repeat;
+	 padding-left: 550px;
+
  }
+
+ nav{
+	 width: 98%;
+	 height: 100px;
+	 background-color: blanchedalmond;
+	 background-position: center;
+	 background-image: url(img/fuego.jpg);
+	 font-family: 'UnifrakturMaguntia', cursive;
+	 font-size: 30px;
+	 color:red;
+
+ }
+ li{
+	 display:inline-block;
+	 padding-left: 50px;
+ }
+ a{
+	 color: red;
+	 text-decoration: none;
+ }
+ a:hover{
+     background: #FFF8F0;
+ }
+
+
 
 /**/
